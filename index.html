@@ -2,21 +2,47 @@
 <html>
 <head>
   <TITLE> WEB1 - Welcome</title>
+      <meta charset="utf-8">
 </head>
 
 <style>
+
+
+      #jb-container {
+           width: 940px;
+           margin: 10px auto;
+           padding: 20px;
+           border: 1px solid #bcbcbc;
+    }
+
+      #jb-header {
+                padding: 20px;
+                margin-bottom: 20px;
+                border: 1px solid #bcbcbc;
+    }
+
+      #jb-content {
+            width: 580px;
+            padding: 20px;
+            margin-bottom: 20px;
+            float: left;
+            border: 1px solid #bcbcbc;
+          }
+
+      #jb-sidebar {
+            width: 260px;
+            padding: 20px;
+            margin-bottom: 20px;
+            float: left;
+            border: 1px solid #bcbcbc;
+          }
+
+
+
+
 a {
   color:black;
   text-decoration: none;
-}
-
-
-.saw{
-color:gray;
-}
-
-#active{
-  color:red;
 }
 
 h1{
@@ -27,18 +53,28 @@ text-align: center;
 
 
 <body>
+  <div id="jb-container">
+   <div id="jb-header">
   <h1><a href="index.html">WEB</a></h1>
-  <ol>
-    <li><a href="1.html" class="saw">html</a></li>
-    <li><a href="2.html" class="saw" id="active">css</a></li>
+</div>
+ <div id="jb-sidebar">
+  <ul>
+    <li><a href="1.html">html</a></li>
+    <li><a href="2.html">css</a></li>
     <li><a href="3.html">JavaScript</a></li>
-  </ol>
+  </ul>
+</div>
+
+ <div id="jb-content">
 
   <h2>WEB이란 무엇인가?</h2>
 
   <p>월드 와이드 웹(World Wide Web, WWW, W3)은 인터넷에 연결된 컴퓨터들을 통해 사람들이 정보를 공유할 수 있는 전 세계적인 정보 공간을 말한다. 간단히 웹(Web)이라 부르는 경우가 많다. 이 용어는 인터넷과 동의어로 쓰이는 경우가 많으나 엄격히 말해 서로 다른 개념이다. 웹은 전자 메일과 같이 인터넷 상에서 동작하는 하나의 서비스일 뿐이다. 그러나 1993년 이래로 웹은 인터넷 구조의 절대적 위치를 차지하고 있다.</P>
-  <p style="margin-top:35px;"">그러면 클라이언트는 이 웹 페이지를 해석하여 웹 브라우저에 표현해 주는데 이런 웹 페이지를 정적인(Static) 웹 페이지라고 한다.</P>
+  <p>그러면 클라이언트는 이 웹 페이지를 해석하여 웹 브라우저에 표현해 주는데 이런 웹 페이지를 정적인(Static) 웹 페이지라고 한다.</P>
   <img src="coding.jpg" width="100%">
-  19.1.2까지 봄.
+
+</div>
+</div>
+
 </body>
 </html>
