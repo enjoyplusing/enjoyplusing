@@ -15,24 +15,18 @@
 
    #jb-header {
             padding: 20px;
-            margin-bottom: 20px;
-            border: 1px solid #bcbcbc;
+            margin-bottom: 0px;
+            border-BOTTOM: 1px solid #bcbcbc;
 }
 
-#jb-content {
-        width: 580px;
-        padding: 20px;
+   #jb-content {
+        padding-left: 20px;
         margin-bottom: 20px;
-        float: left;
-        border: 1px solid #bcbcbc;
       }
 
-      #jb-sidebar {
-        width: 260px;
-        padding: 20px;
-        margin-bottom: 20px;
-        float: left;
-        border: 1px solid #bcbcbc;
+    #jb-sidebar {
+        display: grid;
+        grid-template-columns:170px 1fr
       }
 
       #jb-footer {
@@ -41,10 +35,22 @@
             border: 1px solid #bcbcbc;
           }
 
-
+  h1{
+    text-align:center;
+    margin:0px;
+  }
+  h2{
+    margin-top:20px;
+  }
   a {
     color:black;
     text-decoration: none;
+  }
+  ul{
+    padding-left: 50px;
+    border-right: 1px solid #bcbcbc;
+    padding-top: 20px;
+    margin-top: 0px;
   }
 
   </style>
@@ -56,13 +62,13 @@
   <h1><a href="index.html">WEB</a></h1>
  </div>
 
- <div id="jb-sidebar">
-<ul>
-    <li><a href="1.html" style="color:gray; text-decoration:underline">html</a></li>
-    <li><a href="2.html">css</a></li>
-    <li><a href="3.html">JavaScript</a></li>
-</ul>
- </div>
+
+  <div id="jb-sidebar">
+ <ul>
+ <li><a href="1.html" style="color:gray; text-decoration:underline">html</a></li>
+ <li><a href="2.html">css</a></li>
+ <li><a href="3.html">JavaScript</a></li>
+ </ul>
 
  <div id="jb-content">
   <h2>HTML이란 무엇인가?</h2>
@@ -70,7 +76,9 @@
   <p><a href="https://www.w3.org/TR/html52/textlevel-semantics.html#the-a-element" target="_blank" title="html5 specification ">HTML(Hyper Text Markup Language)</a>은 가장 단순한 형태의 웹 언어이다. <BR>웹 서버에 HTML 문서를 저장하고 있다가 클라이언트가 특정 HTML 페이지를 요청하면 해당 HTML 문서를 클라이언트로 전송한다.</P>
   <p>그러면 클라이언트는 이 웹 페이지를 해석하여 웹 브라우저에 표현해 주는데 이런 웹 페이지를 정적인(Static) 웹 페이지라고 한다.</P>
     <img src="coding.jpg" width="100%">
-</div>
+   </div>
+  </div>
+
   <p>
 
   <div id="jb-footer">
